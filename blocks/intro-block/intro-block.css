@@ -1,0 +1,29 @@
+.intro-block {
+  max-width: 984px;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  flex-direction: column;
+  padding-top: 114px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro-block {
+    max-width: 91%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro-block {
+    max-width: 96%;
+    min-height: 429px;
+    padding-top: 110px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro-block {
+    max-width: 90%;
+    padding-top: 64px;
+  }
+}

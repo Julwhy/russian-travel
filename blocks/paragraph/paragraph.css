@@ -1,0 +1,30 @@
+.paragraph {
+  margin: 0px;
+  padding-bottom: 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.paragraph:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .paragraph {
+    margin: 0px auto;
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 163%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
