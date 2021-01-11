@@ -11,4 +11,6 @@
 **Версия языка:** HTML5 
 **Необходимые расширения:** 
 
-## Планы по доработке проекта
+## Ссылка на проект на GitHub Pages
+https://julwhy.github.io/russian-travel/index.html
+https://julwhy.github.io/russian-travel/
