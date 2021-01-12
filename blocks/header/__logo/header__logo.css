@@ -9,6 +9,7 @@
   .header__logo {
     width: 142px;
     min-height: 42px;
-    background-image: url(../../../images/header__logo-mini.svg);
+    /* background-image: url(../../../images/header__logo-mini.svg); */
+    background-size: 142px 42px;
   }
 }

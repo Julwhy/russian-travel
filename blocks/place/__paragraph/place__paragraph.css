@@ -1,4 +1,4 @@
-.paragraph {
+.place__paragraph {
   margin: 0px;
   padding-bottom: 26px;
   font-style: normal;
@@ -7,19 +7,18 @@
   line-height: 163%;
 }
 
-.paragraph:last-child {
+.place__paragraph:last-child {
   padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .paragraph {
+  .place__paragraph {
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .paragraph {
+  .place__paragraph {
     margin: 0px auto;
     padding-bottom: 25px;
     padding-left: 5%;

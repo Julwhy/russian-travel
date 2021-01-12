@@ -1,0 +1,14 @@
+.footer__nav-item {
+    padding-right: 18px;
+}
+
+.footer__nav-item:last-child {
+    padding-right: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .footer__nav-item {
+        padding-right: 0;
+        padding-bottom: 32px;
+    }
+}

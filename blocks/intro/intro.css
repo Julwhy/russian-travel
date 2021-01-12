@@ -1,4 +1,4 @@
-.intro {
+.intro-block {
   max-width: 690px;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .intro {
+  .intro-block {
     max-width: 96%;
     margin: 0 auto;
   }
