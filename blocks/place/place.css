@@ -14,9 +14,9 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    gap: 32px 48px;
+    gap: 48px 32px;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: minmax(min-content, 50%) minmax(min-content, max-content);
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
   }
 }
 
@@ -24,7 +24,7 @@
   .place {
     gap: 48px 28px;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: 50% minmax(min-content, 50%);
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
   }
 }
 

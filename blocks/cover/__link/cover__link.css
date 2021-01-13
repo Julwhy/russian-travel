@@ -6,14 +6,4 @@
   color: #FFFFFF;
   text-decoration: none;
   width: 100%;
-  
-}
-
-.cover__link:hover {
-  position: absolute;
-  background: #2A2C2F;
-  opacity: 0.8;
-  width: 100%;
-  height: 100%;  /* если убрать выоту и ширину, то затемнение происходит не на весь блок */
-  z-index: 2;
 }
